@@ -56,7 +56,7 @@ Type https://t.me/moviemadh
         sendMarkup(start_string, context.bot, update, reply_markup)
     else:
         sendMarkup(
-            'Oops! not a Authorized user.\nPlease Request to @MrrAbhi He is GOD <b>slam-mirrorbot</b>.',
+            'Oops! not a Authorized user.\nPlease Request to @MrrAbhi He is GOD <b>@moviemadh mirrorbot</b>.',
             context.bot,
             update,
             reply_markup,
