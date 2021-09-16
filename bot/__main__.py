@@ -51,12 +51,12 @@ def start(update, context):
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
 This bot can mirror all your links to Google Drive!
-Type /{BotCommands.HelpCommand} to get a list of available commands
+Type https://t.me/moviemadh
 '''
         sendMarkup(start_string, context.bot, update, reply_markup)
     else:
         sendMarkup(
-            'Oops! not a Authorized user.\nPlease deploy your own <b>slam-mirrorbot</b>.',
+            'Oops! not a Authorized user.\nPlease Request to @MrrAbhi He is GOD <b>slam-mirrorbot</b>.',
             context.bot,
             update,
             reply_markup,
